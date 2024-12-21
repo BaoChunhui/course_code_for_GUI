@@ -15,8 +15,8 @@ from vnpy_tts import TtsGateway as Gateway
 gateway_name: str = Gateway.default_name
 
 # setting: set = {
-#     "用户名": "6358",
-#     "密码": "123456",
+#     "用户名": "",
+#     "密码": "",
 #     "经纪商代码": "",
 #     "交易服务器": "121.37.80.177:20002",
 #     "行情服务器": "121.37.80.177:20004",
