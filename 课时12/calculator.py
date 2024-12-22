@@ -17,7 +17,8 @@ class CalculatorWidget(QtWidgets.QWidget):
         calculate_button.setIcon(QtGui.QIcon("calculator.ico"))  # 设置图标
         
         clear_button = QtWidgets.QPushButton("清空")  #清空按钮
-        clear_button.clicked.connect(self.input.clear)  # 点击执行计算
+        clear_button.clicked.connect(self.input.clear)  # 点击清空输入
+        clear_button.clicked.connect(self.output.clear)  # 点击清空输出
         clear_button.setIcon(QtGui.QIcon("clear.ico"))  # 设置图标
         
         
